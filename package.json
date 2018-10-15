@@ -1,0 +1,28 @@
+{
+  "name": "v4-core",
+  "version": "1.0.0",
+  "description": "searchspring v4 core",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack --watch & webpack-dev-server --open-page 'webpack-dev-server'",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "searchspring",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "tape": "^4.9.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "es6-promise": "^4.2.5",
+    "unfetch": "^4.0.1"
+  }
+}
